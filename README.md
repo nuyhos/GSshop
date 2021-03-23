@@ -1,15 +1,11 @@
-# GSshop
-
-GS SHOP Company Project
+# GS SHOP Company Project
 웹 반응형 팀프로젝트
 
-main
+# main
+https://nuyhos.github.io/GSshop/
 
+# 회사개요
 
-회사개요
+# 사회공헌
 
-
-사회공헌
-
-
-동반성장
+# 동반성장
