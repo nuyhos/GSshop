@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GS SHOP</title>
+    <link rel="shortcut icon" href="../common/images/favicon.ico">
+
+    <link rel="stylesheet" href="../common/css/reset.css">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="../common/css/header.css">
+    <link rel="stylesheet" href="../common/css/footer.css">
+
+    <link rel="stylesheet" href="./css/index_01.css">
+    <link rel="stylesheet" href="./css/index_02.css">
+    <link rel="stylesheet" href="./css/index_03.css">
+
+    <script src="../common/js/jquery.min.js"></script>
+    <script src="../common/js/TweenMax.min.js"></script>
+    <script src="../common/js/header.js"></script>
+    <script src="../common/js/footer.js"></script>
+    <script src="../common/js/main.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header id="m_header">
+
+        <!-- Desktop & Mobile GNB default -->
+        <div class="wrap_default">
+                <a href="#">
+                    <h1 class="logo_w"><span></span></h1>
+                </a>
+                <nav class="gnb_menu_default">
+                    <a href="">회사소개</a>
+                    <a href="">미디어센터</a>
+                    <a href="">지속가능경영</a>
+                    <a href="">투자정보</a>
+                </nav>
+                <div class="top_utils_default">
+                    <a href="" class="top_locate_default">입점안내</a>
+                    <p>|</p>
+                    <a href="" class="top_locate_default">위치안내</a>
+                    <div class="language_default">
+                    <a href=""><span>KOR</span><img src="../common/images/header_lang_wht.png"></a>
+                    <a href=""><span>ENG</span></a>
+                    </div>
+                </div>
+                <a href="javascript:void(0);" class="m_gnb_menu_btn"></a>
+        </div>
+
+        <!-- Desktop GNB full menu -->
+        <div class="desktop_gnb_menu">
+            <div class="wrap">
+                <!-- GNB logo -->
+                <a href="../main/index.html" class="gnb_logo">
+                    <h1 class="logo_c"><span></span></h1>
+                </a>
+                <div>
+                    <h1><a href="" class="hover_border"><span></span></a></h1>
+                </div>
+                <!-- GNB Menu -->
+                <nav>
+                    <div class="gnb_menu">
+                            <a href=""><span class="greenbottom">회사소개</span></a>
+                            <ul class="gnb_hiddenmenu">
+                                <li><a href="../about-us/summary/index.html">회사개요</a></li>
+                                <li><a href="#">연혁</a></li>
+                                <li><a href="#">사업소개</a></li>
+                                <li><a href="#">기업문화</a></li>
+                            </ul>
+                    </div>
+                    <div class="gnb_menu">
+                            <a href=""><span class="greenbottom">미디어센터</span></a>
+                            <ul class="gnb_hiddenmenu">
+                                <li><a href="#">NEWS</a></li>
+                                <li><a href="#">ON-AIR</a></li>
+                                <li><a href="#">INSIDE STORY</a></li>
+                            </ul>
+                    </div>
+                    <div class="gnb_menu">
+                            <a href=""><span class="greenbottom">지속가능경영</span></a>
+                            <ul class="gnb_hiddenmenu">
+                                <li><a href="../sustainable-management/social-con/index.html">사회공헌</a></li>
+                                <li><a href="#">환경경영</a></li>
+                                <li><a href="../sustainable-management/joint-gro/index.html">동반성장</a></li>
+                                <li><a href="#">미래성장</a></li>
+                                <li><a href="#">윤리경영</a></li>
+                            </ul>
+                    </div>
+                    <div class="gnb_menu">
+                            <a href=""><span class="greenbottom">투자정보</span></a>
+                            <ul class="gnb_hiddenmenu">
+                                <li><a href="#">IR정보</a></li>
+                                <li><a href="#">경영실적</a></li>
+                                <li><a href="#">기업지배구조</a></li>
+                            </ul>
+                    </div>
+                </nav>
+                <!-- GNB Utility -->
+                <div class="top_utils">
+                    <div class="locate">
+                            <a href="" class="top_locate">입점안내</a>
+                            <p>|</p>
+                            <a href="" class="top_locate">위치안내</a>
+                    </div>
+                    <div class="language">
+                            <a class="lang_kor"><span>KOR</span><img src="../common/images/header_lang_black.png" class="lang_img"></a>
+                            <a href=""><span>ENG</span></a>
+                    </div>
+                </div>
+                <!-- GNB 인재채용 -->
+                <a href="" class="top_hr">
+                    <p>인재채용<br>바로가기</p>
+                </a>
+                <!-- Mobile GNB Utility -->
+                <div class="m_locate">
+                    <a href="">입점안내</a>
+                    <a href="">위치안내</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Mobile GNB full menu -->
+        <div class="m_gnb_menu">
+                <div class="wrap">
+                    <!-- GNB logo -->
+                    <a href="../main/index.html">
+                    <h1 class="logo_c"><span></span></h1>
+                    </a>
+                    <div>
+                    <h1><a href="" class="hover_border"><span></span></a></h1>
+                    </div>
+                    <!-- GNB Language -->
+                    <div class="language">
+                    <a href=""><span>KOR</span></a>
+                    <a href=""><span>ENG</span></a>
+                    </div>
+
+                    <!-- GNB Menu -->
+                    <nav>
+                    <div class="gnb_menu_m">
+                            <a href="javascript:void(0);" class="gnb_menu_list"><span>회사소개</span><img class="m_menu_arrow" src="../main/images/allMenuD_oneDepth_open.png"></a>
+                            <ul class="gnb_hiddenmenu">
+                                <li><a href="../about-us/summary/index.html">회사개요</a></li>
+                                <li><a href="#">연혁</a></li>
+                                <li><a href="#">사업소개</a></li>
+                                <li><a href="#">기업문화</a></li>
+                            </ul>
+                    </div>
+                    <div class="gnb_menu_m">
+                            <a href="javascript:void(0);" class="gnb_menu_list"><span>미디어센터</span><img class="m_menu_arrow" src="../main/images/allMenuD_oneDepth_open.png"></a>
+                            <ul class="gnb_hiddenmenu">
+                                <li><a href="#">NEWS</a></li>
+                                <li><a href="#">ON-AIR</a></li>
+                                <li><a href="#">INSIDE STORY</a></li>
+                            </ul>
+                    </div>
+                    <div class="gnb_menu_m">
+                            <a href="javascript:void(0);" class="gnb_menu_list"><span>지속가능경영</span><img class="m_menu_arrow" src="../main/images/allMenuD_oneDepth_open.png"></a>
+                            <ul class="gnb_hiddenmenu">
+                                <li><a href="../sustainable-management/social-con/index.html">사회공헌</a></li>
+                                <li><a href="#">환경경영</a></li>
+                                <li><a href="../sustainable-management/joint-gro/index.html">동반성장</a></li>
+                                <li><a href="#">미래성장</a></li>
+                                <li><a href="#">윤리경영</a></li>
+                            </ul>
+                    </div>
+                    <div class="gnb_menu_m">
+                            <a href="javascript:void(0);" class="gnb_menu_list"><span>투자정보</span><img class="m_menu_arrow" src="../main/images/allMenuD_oneDepth_open.png"></a>
+                            <ul class="gnb_hiddenmenu">
+                                <li><a href="#">IR정보</a></li>
+                                <li><a href="#">경영실적</a></li>
+                                <li><a href="#">기업지배구조</a></li>
+                            </ul>
+                    </div>
+
+                    <!-- GNB 인재채용 -->
+                    <a href="" class="top_hr">
+                            <p>인재채용<br>바로가기</p>
+                    </a>
+                    </nav>
+
+                    <!-- Mobile GNB Utility -->
+                    <div class="m_locate">
+                    <a href="">입점안내</a>
+                    <a href="">위치안내</a>
+                    </div>
+                    <!-- Mobile Menu close btn -->
+                </div>
+                <a href="javascript:void(0);" class="m_menu_close"></a>
+        </div>
+
+    </header>
+    <div class="full-page-container">
+        <!-- main -->
+        <div id="main" class="full-page-wrapper">
+            <!-- 호준 -->
+
+            <!-- hero -->
+            <section class="l-main-contents">
+                <div class="video-box">
+                    <!-- preload?? -->
+                    <video id="hero-video" muted autoplay loop>
+                        <source src="./video/202002120535301880.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="bg-box">
+                    <img src="./images/201908130211492670.jpg">
+                    <img src="./images/201909021145438880.jpg">
+                    <img src="./images/201909021145439110.jpg">
+                </div>
+                <div class="hero-txt-box">
+                    <a href="javascript:">HUMAN</a>
+                    <a href="javascript:">DATA</a>
+                    <a href="javascript:"><span>in</span> GS SHOP</a>
+                    <div class="hero-txts">
+                        <p>고객이 원하는 모든 순간</p>
+                        <p>고객에 대한 이해와 데이터를 바탕으로</p>
+                        <p>고객의 더 나은 삶과 특별한 경험을 만들어 나갑니다</p>
+                    </div>
+                </div>
+                <div class="mouse-icon-box">
+                    <p>SCROLL</p>
+                    <div class="mouse-icon">
+                        <img src="images/mainvisual_mouse_ball.png" class="mouse-icon_ball">
+                    </div>
+                </div>
+            </section>
+
+            <!-- event -->
+            <section class="l-main-contents l-sec-02">
+                <div class="sec-02-bg" style="right: 0px;"></div>
+                <div class="l-content">
+                    <div class="sec-02-txt-box on">
+                        <h4 class="cr-b1c712">Designing Life Together</h3>
+                            <h2 id="sec-02-txt-header" class="cr-22">INSIDE STORY</h2>
+                            <p>고객을 위해 다양한 혁신을 시도하는<br>GS SHOP의 이야기를 소개합니다</p>
+                            <a href="">더보기</a>
+                    </div>
+                    <div class="l-slide-container">
+                        <div class="slide-container">
+                            <div class="slide-wrapper">
+                                <a href="" class="slide-content">
+                                    <figure class="sec-02-fg">
+                                        <div class="sec-02-img-wrapper">
+                                            <img src="images/202012280308516660.jpg">
+                                        </div>
+                                        <figcaption class="sec-02-fgc">
+                                            <h5>환경을 위해 함께해요, Green Life Together!</h5>
+                                            <p>2020 GS SHOP의 친환경 활동 총결산</p>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                                <a href="" class="slide-content">
+                                    <figure class="sec-02-fg">
+                                        <div class="sec-02-img-wrapper">
+                                            <img src="images/202009020949544440.jpg">
+                                        </div>
+                                        <figcaption class="sec-02-fgc">
+                                            <h5>스물다섯 살 GS SHOP의 아주 특별한 생일 파티</h5>
+                                            <p>개국 25주년을 맞은 GS SHOP 생일 파티에 여러분을 초대합니다!!</p>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                                <a href="" class="slide-content">
+                                    <figure class="sec-02-fg">
+                                        <div class="sec-02-img-wrapper">
+                                            <img src="images/202007300944338370.jpg">
+                                        </div>
+                                        <figcaption class="sec-02-fgc">
+                                            <h5>"상생을 위한 끊임없는 노력" GS SHOP 상생 스토리</h5>
+                                            <p>파트너사와 함께 어려움을 극복해 나갑니다.</p>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                                <a href="" class="slide-content">
+                                    <figure class="sec-02-fg">
+                                        <div class="sec-02-img-wrapper">
+                                            <img src="images/202007071028203640.jpg">
+                                        </div>
+                                        <figcaption class="sec-02-fgc">
+                                            <h5>홈쇼핑 방송의 패러다임을 바꾸다! OSS(One Stop Service) 이야기</h5>
+                                            <p>임직원과 고객의 경험을 풍성하게 하는 영상 제작 프로젝트 'OSS'를 소개합니다.</p>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                            <a class="slide-left-btn" href="javascript:"></a>
+                            <a class="slide-right-btn" href="javascript:"></a>
+                            <div class="slide-progressbar">
+                                <span class="slide-progressbar-fill"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 소현 -->
+
+            <!-- main -->
+            <section class="hero_wrap">
+                <div class="hero_culture">
+                    <div class="culture_txt">
+                        <h2 class="culture_tit">기업문화</h2>
+                        <p class="culture_subt">우리의 문화는 혁신을 만들고 그 혁신은 고객에게 새로운 가치를 제공합니다</p>
+                    </div>
+
+                    <div class="culture_video_list">
+                        <ul class=culture_list_wrap>
+                            <li class="culture_list">
+                                <a class="list_a_1" href="javascript:">
+                                    <p class="list_txt">Way of working</p>
+                                    <div class="hideobj">
+                                        <p class="subtxt">
+                                            GS SHOP은 함께 고민하고<br>
+                                            함께 혁신합니다
+                                        </p>
+                                        <div class="squrebox">
+                                            <span>Digital Transformation</span>
+                                            <span>Collaboration</span>
+                                            <span>Innovation Eco system</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </li>
+                            <li class="culture_list">
+                                <a class="list_a_2" href="javascript:">
+                                    <p class="list_txt">Education</p>
+                                    <div class="hideobj">
+                                        <p class="subtxt">
+                                            GS SHOP은 교육은<br>가르치지 않습니다
+                                        </p>
+                                        <div class="squrebox">
+                                            <span>Open Innovation 교육</span>
+                                            <span>Collaboration</span>
+                                            <span>자발적 참여형 교육제도</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="culture_list">
+                                <a class="list_a_3" href="javascript:">
+                                    <p class="list_txt">Place</p>
+                                    <div class="hideobj">
+                                        <p class="subtxt">
+                                            GS SHOP의 혁신은 바로<br>이 곳에서 만들어집니다
+                                        </p>
+                                        <div class="squrebox">
+                                            <span>Open Innovation Office</span>
+                                            <span>Zaban, Urban</span>
+                                            <span>휴식공간</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="culture_list">
+                                <a class="list_a_4" href="javascript:">
+                                    <p class="list_txt">Welfare</p>
+                                    <div class="hideobj">
+                                        <p class="subtxt">
+                                            GS SHOP 임직원들의 '걱정 없는'<br>회사 생활을 만들어 나갑니다
+                                        </p>
+                                        <div class="squrebox">
+                                            <span>휴양시설</span>
+                                            <span>사내 어린이집</span>
+                                            <span>헬스장</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="culture_movie">
+                            <video class="culture_video" autoplay muted loop>
+                                <source src="video/gsshop_culture_mod0729_2.mp4" type="video/mp4">
+                            </video>
+                            <img class="culture_img_1" src="images/mainCultureOverImg1.jpg">
+                            <img class="culture_img_2" src="images/mainCultureOverImg2.jpg">
+                            <img class="culture_img_3" src="images/mainCultureOverImg3.jpg">
+                            <img class="culture_img_4" src="images/mainCultureOverImg4.jpg">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- News -->
+            <section class="news_wrap">
+                <div class="news">
+                    <div class="news_txt">
+                        <a class="news_tit" href="#">
+                            <span>NEWS</span>
+                        </a>
+                        <a class="more_btn" href="#">더보기</a>
+                    </div>
+                    <div class="news_cont">
+                        <a class="news_list" href="#">
+                            <div class="news_txt_area">
+                                <p class="news_cont_tit">보도자료</h5>
+                                <p class="news_cont_txt">1월 23일 쇼미더트렌드 방송과 관련해 사과드립니다</p>
+                                <p class="news_cont_hidetxt">1월 23일 밤 쇼미더트렌드 방송과 관련하여 사과드립니다.
+                                    23일 밤 방송 중 출연자의 적절치 못한 발언으로 고객님과 시청자 여러분들께 실망스러움을 드렸습니다. GS홈쇼핑은 이 상황을 심각하게 받아들이고 무거운
+                                    책임감을 느끼고 ...</p>
+                                <p class="news_date">2021-01-24</p>
+                                <img src="images/202101240406136520.png">
+                            </div>
+                        </a>
+
+                        <a class="news_list" href="#">
+                            <div class="news_txt_area">
+                                <p class="news_cont_tit">보도자료</h5>
+                                <p class="news_cont_txt">‘GS와 함께하는 2021 위대한 설’ 특집</p>
+                                <p class="news_cont_hidetxt">-GS샵 X GS리테일, 올 7월 통합 앞두고 ‘위대한 설’ 첫 고객 통합 마케팅 기획 -공동경품 진행 ‘황금소
+                                    코인’ 총 60명 추첨…양사크로스 마케팅도 펼쳐 합병을....</p>
+                                <p class="news_date">2021-01-18</p>
+                                <img src="images/202101240436574550.jpg">
+                            </div>
+                        </a>
+
+                        <a class="news_list" href="#">
+                            <div class="news_txt_area">
+                                <p class="news_cont_tit">보도자료</h5>
+                                <p class="news_cont_txt">[GS홈쇼핑 X GS리테일] 전 채널 동원해 청년 스타트업 상품 날개 달아준다</p>
+                                <p class="news_cont_hidetxt">-GS홈쇼핑, GS리테일과 미래 먹거리 발굴 프로젝트 ‘넥스트 푸디콘’ 통해 스타트업 지원 -162개 참가기업 중
+                                    5곳 6개월간 멘토링 진행…페이크커피, 저염도시락 등 상품화 성공 -GS홈쇼핑, 오픈이노베이션 위해 국내외 800여개...</p>
+                                <p class="news_date">2021-01-13</p>
+                                <img src="images/202101240439442350.jpg">
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- 지연 -->
+            <section class="ir_wrap">
+                <div>
+                   <div class="ir_txt">  
+                      <h2 class="ir_tit">IR</h2>
+                      <p class="ir_subt">GS SHOP의 투자정보를 알려드립니다</p>
+                   </div>
+                   <div class="ir">
+                      <a href="" class="ir_record" onmouseover="scaleExpansion()" onmouseout="downScale()">
+                         <h3>경영실적</h3>
+                         <p>GS SHOP의 경영실적을<br>
+                         확인하실 수 있습니다</p>
+                         <img src="images/main_ir_company.jpg" class="ir_record_img">
+                      </a>
+                      <div class="ir_info">
+                         <div class="stock_price">
+                            <h3>주가정보</h3>
+                            <p class="stock_price">143,300</p>
+                            <a href="" class="ir_info_btn">자세히 보기</a>
+                         </div>
+                         <div class="ir_stock_list">
+                            <div class="stock_info">
+                               <p>전일대비</p>
+                               <span>100&nbsp;▲</span>
+                            </div>
+                            <div class="stock_info">
+                               <p>등락률</p>
+                               <span>+0.07</span>
+                            </div>
+                            <div class="stock_info">
+                               <p>거래량</p>
+                               <span>9,313</span>
+                            </div>
+                         </div>
+                      </div>
+                      <div class="m_notice_report">
+                         <div class="ir_notice">
+                            <div class="notice">
+                               <h3>IR공지</h3>
+                               <div class="notice_btn">
+                                  <a href="javascript:void(0);" class="ir_btn" id="back"><span></span></a>
+                                  <a href="javascript:void(0);" class="ir_btn" id="next"><span></span></a>
+                               </div>
+                            </div>
+                            <div class="notice_board">
+                               <a href="" id="board_01"><span>분기보고서 (2020.09)</span></a>
+                               <a href=""  id="board_02"><span>주요사항보고(회사합병결정)</span></a>
+                               <a href=""  id="board_03"><span>GS홈쇼핑, ㈜한진에 전략적 투자…물류협력 파트너십 강화</span></a>
+                               <a href=""  id="board_04"><span>GS홈쇼핑, KCGS 지배구조 평가서 ‘우수기업’ 선정</span></a>
+                            </div>
+                            <div class="ir_notice_m">
+                               <p>IR공지를 확인하실 수<br>있습니다</p>
+                            </div>
+                         </div>
+                         <a href="" class="ir_report"onmouseover="reportHover()" onmouseout="reportOut()" >
+                            <h3>IR 보고서</h3>
+                            <p>IR자료를 열람 및<br>다운받으실 수 있습니다</p>
+                            <span class="ir_report_img"><img src="images/ir_report_img.jpg"></span>
+                         </a>
+                      </div>
+                   </div>
+                </div>
+             </section>
+            
+            <!-- Footer -->
+            <section id="footer">
+                <!-- Footer 좌측 Information -->
+                <div class="footer_left">
+                    <div class="footer_info">
+                        <a href="">개인정보처리방침</a>
+                        <a href="">이용약관</a>
+                        <a href="">시청자 관련</a>
+                        <a href="">웹접근성</a>
+                        <a href="">GSshop.com</a>
+                    </div>
+                    <p class="copyright">Copyright @ GS SHOP All rights reserved.</p>
+                </div>
+                <!-- Footer 우측 Link -->
+                <div class="footer_link">
+                    <a href="javascript:void(0);" class="footer_ccm"></a>
+                    <div class="familysite">
+                        <a href="javascript:void(0);"><span>Family Site</span></a>
+                    </div>
+                    
+                    <!-- Footer CCM Pop-up Page -->
+                    <div class="ccm_pop_up">
+                        <div class="ccm_page_wrap">
+                            <a href="javascript:void(0);" class="ccm_close_btn" onclick="ccmPageClose()">
+                                <img src="../common/images/lypop_closeBtn.png">
+                            </a>
+                            <div class="ccm_page">
+                                <h2 class="ccm_title">소비자중심경영 인증제도 CCM</h2>
+                                <h3>GS SHOP은 소비자의 목소리를 가장 먼저 듣고, 나누고, 공감하는 CCM 인증기업입니다.</h3>  
+                            </div>
+                            <h2 class="ccm_subtitle">CCM 소개</h2>
+                            <p>기업이 수행하는 모든 활동을 소비자 관점에서 소비자 중심으로 구성하고 관련 경영활동을 지속적으로 개선하고 있는지를 심사하여 인증하는 제도입니다.</p>
+                            <div class="ccm_lps">
+                                <h2><strong>LPS</strong> (Leadership System Performance)</h2>
+                                <img class="lps_img_d" src="../common/images/ccm_lps_img.png">
+                                <img class="lps_img_m" src="../common/images/ccm_lps_img_m.png">
+                            </div>
+                            <div class="ccm_org">
+                                <div class="org">
+                                    <h2 class="org_list_txt">주관기관</h2>
+                                    <img src="../common/images/ccm_list_logo1.jpg">
+                                </div>
+                                <div class="org">
+                                    <h2 class="org_list_txt">인증기관</h2>
+                                    <img src="../common/images/ccm_list_logo2.jpg">
+                                </div>
+                            </div>
+                            <h2 class="ccm_subtitle">CCM 기대효과</h2>
+                            <div class="ccm_effect">
+                                <div class="ccm_effect_list">
+                                    <h2 class="list_txt">소비자</h2>
+                                    <p>기업이 수행하는 모든 활동을 소비자 관점에서 소비자 중심으로 구성하고 관련 경영활동을 지속적으로 개선하고 있는지를 심사하여 인증하는 제도입니다.</p>
+                                </div>
+                                <div class="ccm_effect_list">
+                                    <h2 class="list_txt">GS SHOP</h2>
+                                    <p>CEO와 임직원의 소비자권익에 대한 인식을 제고하고, 상품과 서비스 수준을 소비자 관점으로 끈임없이 개선함으로써 대내ㆍ외 경쟁력을 강화할 수 있습니다.</p>
+                                </div>
+                                <div class="ccm_effect_list">
+                                    <h2 class="list_txt">공공</h2>
+                                    <p>사후 분쟁해결 및 행정조치로 인한 사회적 비용을 절감하고, 소비자 중심의 선순환 시장을 조성함으로써 기업ㆍ소비자 간의 상생문화 확산에 기여합니다.</p>
+                                </div>
+                            </div>
+                            <h2 class="ccm_subtitle">GS SHOP CCM 도입, 운영 성과</h2>
+                            <div class="ccm_outcome">
+                                <div class="ccm_outcome_list">
+                                    <h2>경영의 전 과정에 CCM 도입</h2>
+                                    <p>기업이 수행하는 모든 활동을 소비자 관점에서 소비자 중심으로 구성하고 관련 경영활동을 지속적으로 개선하고 있는지를 심사하여 인증하는 제도입니다.</p>
+                                </div>
+                                <div class="ccm_outcome_list">
+                                    <h2>소비자 권익 증진 노력</h2>
+                                    <p>GS SHOP은 ‘소비자분쟁해결기준’ 보다 소비자에게 유리한 ‘CS처리지침 및 고객서비스 정책’을 마련해 소비자 권익 증진에 노력을 기울이고 있습니다. 또한 협력사와 상생경영을 통해 소비자 권익증진 협업시스템을 운영하고 있으며 영세기업의 창의∙혁신적인 상품 발굴을 확대해 중소기업 성장의 사다리 역할을 하고 있습니다.</p>
+                                </div>
+                                <div class="ccm_outcome_list">
+                                    <h2>소비자 효용을 증대한 우수한 서비스 실시</h2>
+                                    <p>GS SHOP은 고객들의 라이프 스타일 변화에 맞춘 스마트한 서비스들을 시행 중입니다.<br>
+                                    배송원의 정보와 현재 위치, 도착 예정 시간 등의 정보를 제공하는 ‘라이브(LIVE) 배송 서비스’, 16개 지자체와 협력해 전국 277개 무인택배 보관함에서 상품을 받아볼 수 있는 ‘안심택배 서비스’ 가까운 GS25와 CU 편의점에서 24시간 상품을 받고 반품할 수 있는 ‘편의점 픽업 서비스’, ‘편의점 반품 서비스’ 를 실시 중이며 다양한 결제 수단을 도입해 결제 편의성도 지속 개선하고 있습니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Footer family site sub menu -->
+                    <div class="familysite_riseup">
+                        <div class="familysite_popup_wrap">
+                            <div class="familysite_popup">
+                                <p class="familysite_category">자매사</p>
+                                <div class="familysite_list">
+                                    <p><a href="">GS</a></p>
+                                    <p><a href="">GS칼텍스</a></p>
+                                    <p><a href="">GS리테일</a></p>
+                                    <p><a href="">GS EPS</a></p>
+                                    <p><a href="">GS건설</a></p>
+                                    <p><a href="">GS글로벌</a></p>
+                                    <p><a href="">GS스포츠</a></p>
+                                    <p><a href="">GS에너지</a></p>
+                                    <p><a href="">GS E&R</a></p>
+                                </div>
+                            </div>
+                            <div class="familysite_popup">
+                                <p class="familysite_category">자회사</p>
+                                <div class="familysite_list">
+                                    <p><a href="">GS텔레서비스</a></p>
+                                    <p><a href="">텐바이텐</a></p>
+                                </div>
+                            </div>
+                            <a href="javascript:void(0);" class="close_btn"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        // IR 공지 Button Prev & Next Event
+        var board1 = document.getElementById('board_01');
+        var board2 = document.getElementById('board_02');
+        var board3 = document.getElementById('board_03');
+        var board4 = document.getElementById('board_04');
+
+        var back=document.getElementById('back');
+        var next=document.getElementById('next');
+        var count = 1;
+
+        boardview();
+
+        back.addEventListener('click', function() {
+        if(count>1){
+            count--;
+            boardview();
+        }
+        });
+        next.addEventListener('click', function(){
+        if(count<4){
+            count++;
+            boardview();
+        }
+        });
+
+        function boardview() {
+        board1.style="display:none; transition: all .3s;";
+        board2.style="display:none; transition: all .3s;";
+        board3.style="display:none; transition: all .3s;";
+        board4.style="display:none; transition: all .3s;";
+
+        if(count==1){
+            board1.style="display:block; transition: all .3s;";
+        } else if (count==2) {
+            board2.style="display:block; transition: all .3s;";
+        } else if (count==3) {
+            board3.style="display:block; transition: all .3s;";
+        } else if (count==4) {
+            board4.style="display:block; transition: all .3s;";
+        }
+        }
+    </script>
+</body>
+</html>

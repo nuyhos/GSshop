@@ -1,0 +1,523 @@
+/* IR CSS */
+.ir_wrap {
+    color: rgb(102, 102, 102);
+    height: 100vh;
+    background: url(../images/irArea_bg.jpg) no-repeat 100% 0px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.ir_txt {
+    padding-top: 200px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.ir_tit {
+    font-family: 'Metropolis-ExtraBold', 'Noto Sans KR';
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0;
+    color: rgb(255, 255, 255);
+}
+
+.ir_subt {
+    padding-top: 40px;
+    font-family: 'Metropolis-Light', 'Noto Sans KR';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+}
+
+.ir {
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.ir h3 {
+    font-family: 'Metropolis-Bold', 'Noto Sans KR';
+    font-size: 22px;
+    line-height: 1;
+    font-weight: 700;
+    text-align: left;
+}
+
+.ir p {
+    font-family: 'Metropolis-light', 'Noto Sans KR';
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 18px 0 0;
+}
+
+/* IR 경영실적 CSS */
+.ir_record {
+    width: 380px;
+    height: 450px;
+    padding: 48px 45px 0;
+    overflow: hidden;
+}
+
+.ir_record h3 {
+    position: absolute;
+    z-index: 3;
+}
+
+.ir_record p {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 2;
+    padding-top: 37px;
+}
+
+.ir_record img {
+    position: relative;
+    top: -48px;
+    left: -45px;
+    z-index: 1;
+}
+
+/* .ir_record img:hover { 
+transform: scale(1.2);
+transition: all 0.5s;
+} */
+
+/* IR 주가정보 CSS */
+.ir_info {
+    width: 380px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    padding: 48px 45px 0;
+    margin: 0 28px 0 32px;
+}
+
+.ir_info h3 {
+    color: rgb(102, 102, 102);
+}
+
+.ir_info p {
+    font-size: 60px;
+    line-height: 1;
+    color: rgb(241, 26, 26);
+    padding: 16px 0 0;
+
+}
+
+.ir_info_btn {
+    font-family: 'metropolis-medium', 'Noto Sans KR';
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 500;
+    color: rgb(85, 85, 85);
+    display: inline-block;
+    width: 120px;
+    padding: 12px 15px;
+    margin-top: 25px;
+    border: 1px solid rgb(221, 221, 221);
+    background: url(../images/main_ir_arrowIcon1.png) no-repeat 95px center;
+    border-radius: 50px;
+}
+
+.stock_info {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0 0;
+}
+
+.ir_stock_list {
+    margin: 70px 0 0;
+    padding: 12px 0 0;
+    border-top: 1px solid rgb(229, 229, 229);
+}
+
+.ir_stock_list p {
+    font-size: 16px;
+    color: rgb(85, 85, 85);
+    padding: 0;
+}
+
+.ir_stock_list span {
+    font-size: 17px;
+    color: rgb(241, 26, 26);
+}
+
+.stock_info:nth-child(3) span {
+    color: rgb(34, 34, 34);
+}
+
+/* IR 공지 CSS */
+.ir_notice {
+    width: 380px;
+    height: 210px;
+    background-color: rgb(255, 255, 255);
+    padding: 48px 45px 0;
+    position: relative;
+}
+
+.ir_notice h3 {
+    color: rgb(102, 102, 102);
+    padding: 0;
+}
+
+.notice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ir_btn:first-child {
+    height: 16px;
+    display: inline-block;
+    padding: 0 15px;
+    background: url(../images/ir_ir_icon1.png) no-repeat center;
+}
+
+.ir_btn:last-child {
+    height: 16px;
+    display: inline-block;
+    padding: 0 15px;
+    background: url(../images/ir_ir_icon2.png) no-repeat center;
+}
+
+.notice_board a {
+    font-size: 18px;
+    line-height: 26px;
+    color: rgb(34, 34, 34);
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    word-break: break-all;
+}
+
+.notice_board a span:hover {
+    text-decoration: underline;
+}
+
+.ir_notice_m {
+    display: none;
+}
+
+/* IR 보고서 CSS */
+.ir_report {
+    display: block;
+    width: 380px;
+    height: 210px;
+    padding: 40px;
+    margin-top: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
+}
+
+.ir_report p {
+    color: rgb(255, 255, 255);
+    background: url(../images/main_ir_arrowIcon3.png) no-repeat left bottom;
+    padding-bottom: 40px;
+}
+
+.ir_report_img {
+    position: absolute;
+    bottom: -160px;
+    right: 35px;
+}
+
+
+
+/* 반응형 1280px */
+@media screen and (max-width:1280px) {
+    .ir_txt {
+        padding-top: 100px;
+    }
+
+    .ir_tit {
+        font-size: 40px;
+    }
+
+    .ir_subt {
+        padding-top: 25px;
+        font-size: 16px;
+    }
+
+    /* 1220px layout */
+    .ir {
+        margin: 60px 15px;
+    }
+
+    .ir_record {
+        width: 290px;
+        max-width: 290px;
+        height: 400px;
+        padding: 38px 30px 0;
+    }
+
+    .ir_record img {
+        position: relative;
+        top: -63px;
+        left: calc(50% - 190px);
+    }
+
+
+    .ir_info {
+        width: 290px;
+        max-width: 290px;
+        height: 400px;
+        padding: 38px 30px 0;
+        margin: 0 15px;
+    }
+
+    .ir_notice {
+        width: 290px;
+        max-width: 290px;
+        height: 200px;
+        padding: 30px;
+    }
+
+    .ir_report {
+        width: 100%;
+        max-width: 290px;
+        height: 180px;
+        padding: 30px;
+        margin-top: 20px;
+    }
+
+    .m_notice_report {
+        width: 290px;
+        max-width: 290px;
+        height: 400px;
+    }
+
+    .notice_board a {
+        font-size: 16px;
+        width: 230px; 
+        max-width: 230px;
+        left: 30px; 
+        top: 80px;
+     }
+
+    /* 1220px Font */
+    .ir h3 {
+        font-size: 18px;
+    }
+
+    .ir_info p {
+        font-size: 40px;
+    }
+
+    .ir_stock_list p {
+        font-size: 16px;
+    }
+
+    .ir_info_btn {
+        margin-top: 20px;
+    }
+
+    .notice_board a span {
+        font-size: 16px;
+        width: 230px;
+        max-width: 230px;
+        top: 85px;
+        left: 30px;
+    }
+}
+
+
+/* 반응형 768px */
+@media screen and (max-width: 768px) {
+
+    /* 768px layout */
+    .ir_wrap {
+        height: 100%;
+    }
+
+    .ir {
+        flex-direction: column;
+        margin: 32px auto 0;
+    }
+
+    .ir_record {
+        width: 380px;
+        max-width: 380px;
+        height: 240px;
+        padding: 38px 30px 0;
+        margin: 0 auto;
+        background: url(../images/m_main_ir_company.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    .ir_record img {
+        display: none;
+    }
+
+    .ir_info {
+        width: 380px;
+        max-width: 380px;
+        height: 240px;
+        padding: 38px 30px 0;
+        margin: 20px auto 0;
+    }
+
+    .m_notice_report {
+        width: 380px;
+        max-width: 380px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    .ir_notice {
+        width: 380px;
+        max-width: 380px;
+        height: 190px;
+        padding: 30px;
+        margin: 20px auto 0;
+    }
+
+    .notice_board a {
+        width: 320px; 
+        max-width: 320px;
+    }
+
+    .ir_report {
+        width: 380px;
+        max-width: 380px;
+        height: 190px;
+        padding: 30px;
+        margin: 20px auto 0;
+        background: rgb(180, 212, 27);
+        border: 0px;
+    }
+
+    .stock_price {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 32px;
+    }
+
+    .ir_info_btn {
+        display: none;
+    }
+
+    .ir_stock_list {
+        margin: 0;
+        padding: 14px 0 0;
+    }
+
+    .stock_info {
+        padding: 11px 0 0;
+    }
+
+    .ir_info p {
+        padding: 0;
+    }
+
+    .ir_report p {
+        background: none;
+    }
+}
+
+/* 반응형 500px */
+@media screen and (max-width: 500px) {
+    .ir_txt {
+        padding-top: 60px;
+    }
+
+    .ir_tit {
+        font-size: 32px;
+    }
+
+    .ir_subt {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+    /* 500px Layout */
+    .ir_wrap {
+        width: 100%;
+        max-width: 500px;
+        height: 869px;
+    }
+
+    .ir_record {
+        width: 470px;
+        max-width: 470px;
+        height: 170px;
+        padding: 25px;
+    }
+
+    .ir_info {
+        width: 470px;
+        max-width: 470px;
+        height: 170px;
+        padding: 25px;
+        margin: 10px auto 0;
+    }
+
+    .stock_price {
+        padding-bottom: 0;
+    }
+
+    .ir_stock_list {
+        margin: 15px 0 0;
+        padding: 4px 0 0;
+    }
+
+    .ir_notice {
+        width: 230px;
+        height: 110px;
+        padding: 20px 18px;
+        margin: 10px 0 0;
+    }
+
+    .ir_report {
+        width: 230px;
+        height: 110px;
+        padding: 20px;
+        margin: 10px 0 0;
+    }
+
+    .m_notice_report {
+        width: 470px;
+        max-width: 470px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .notice_board,
+    .notice_btn {
+        display: none;
+    }
+
+    .ir_notice_m {
+        display: block;
+    }
+
+    /* 500px Font */
+    .ir h3 {
+        font-size: 16px;
+    }
+
+    .ir_record p {
+        font-size: 13px;
+    }
+
+    .m_notice_report p {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .ir_info p {
+        font-size: 30px;
+    }
+
+    .ir_stock_list p,
+    .ir_stock_list span {
+        font-size: 14px;
+    }
+
+}

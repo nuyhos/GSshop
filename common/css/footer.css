@@ -1,0 +1,629 @@
+/* Footer CSS */
+
+footer, #footer { 
+    width: 100%; height: 222px; 
+    padding: 80px 50px;
+    background: url(../images/logo_color.png) no-repeat 50px 80px rgb(255, 255, 255);
+    border-top: 1px solid rgb(229, 229, 229); 
+    position: relative; top: 0; left: 0;
+    z-index: 1;
+ }
+ 
+ .footer_wrap {
+    padding: 0 0 0 250px; 
+    position: relative;
+ }
+ 
+ /* Footer 좌측 정보 CSS */
+ .footer_left {
+     float: left;
+     padding-left: 250px;
+ }
+ .footer_info {
+    padding-bottom: 26px;
+ }
+ .footer_info a { 
+    display: inline-block; 
+    margin-left: 35px;
+    font-size: 18px;
+    color: #555;
+ }
+ .footer_info a:first-child { 
+    font-weight: 700; color: rgb(34, 34, 34);
+    margin-left: 0;
+ }
+ .footer_info a:last-child { 
+    font-family: 'Metropolis-Bold', 'Noto Sans KR';
+    font-weight: 700;
+    color: rgb(157, 185, 0);
+ }
+ .copyright { 
+    font-size: 16px; line-height: 1; letter-spacing: normal;
+    color: rgb(170, 170, 170); 
+ }
+ 
+ /* Footer 우측 Link CSS */
+ .footer_link { 
+    float: right;
+    display: flex;
+    position: relative;
+ }
+ .footer_ccm { 
+    width: 56px; height: 53px;
+    background: url(../images/iconFooter_ccm.png) no-repeat left center; 
+    background-size: auto;
+    padding-right: 56px;
+    margin-right: 24px;
+ }
+ .familysite>a {
+    display: block;
+    padding:18px 18px;  
+    border:1px solid #ddd; border-radius:50px;
+    font-size: 15px; line-height: 1;
+    color: rgb(34, 34, 34);
+ }
+ .familysite a span { 
+    display: inline-block;
+    background: url(../images/iconFooter_familySite.png) no-repeat right center; 
+    padding-right: 70px;
+    letter-spacing: 0;
+ }
+ 
+ /* Footer family site Pop-Up menu CSS */
+ .familysite_riseup {
+    width: 475px; height: 0px;
+    overflow: hidden; 
+    position: absolute; bottom: 0px; right: 0; z-index: 3;
+    transition: height 100ms;
+ }
+ .familysite_popup_wrap {
+    width: 475px;
+    height: 100%;
+    z-index: 2;
+    padding: 50px 40px; 
+    background-color: rgb(255, 255, 255); 
+    border: 1px solid rgb(191, 215, 21); border-radius: 30px;
+ }
+ .familysite_popup_wrap p {
+    font-size: 16px; line-height: 1; font-weight: 700; 
+    color: rgb(34, 34, 34);
+ }
+ .familysite_popup_wrap a {
+    font-family: 'Metropolis-Light', 'Noto Sans KR';
+    font-size: 15px; font-weight: 300;
+    color: rgb(85, 85, 85);
+    margin: 0;
+ }
+ .familysite_popup_wrap a:hover { 
+    color: rgb(177, 199, 18);
+ }
+ .familysite_popup {
+    display: flex;
+ }
+ .familysite_popup:first-child { 
+    margin-bottom: 30px; padding-bottom: 30px; 
+    border-bottom: 1px solid rgb(229, 229, 229); 
+ }
+ 
+ .familysite_category {
+    width: 25%;
+ }
+ .familysite_list {
+    width: 75%;
+ }
+ .familysite_list p {
+    width: 33.33%;
+    display: block;
+    float: left;
+ }
+ .familysite_list p a {
+    display: inline-block;
+    margin: 0;
+ }
+ .familysite_list p:nth-child(n+4) { 
+    margin-top: 15px; 
+ }
+ .close_btn {
+    position: absolute; bottom: 23px; right: 20px; 
+    width: 10px; height: 10px; 
+    background: url(../images/familysite_close.png) no-repeat; 
+ }
+ .ccm_page { 
+    display: none; 
+ }
+ 
+/* CCM POP-UP CSS */
+.ccm_pop_up {
+    width: 100%; height: 100%;
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.ccm_page_wrap { 
+    font-family: "Metropolis-Light", "Noto Sans KR";
+    line-height: 26px;
+    font-weight: 300; 
+    letter-spacing: -0.6px;
+    text-align: center;
+    color: rgb(85, 85, 85);
+    width: 1000px; 
+    height: auto;
+    max-width: 90%; 
+    max-height: 80%;
+    background: rgb(255, 255, 255);
+    display: block;
+    overflow-y: auto;
+    padding: 60px 50px;
+    margin: 0 auto;
+    position: fixed; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ccm_close_btn img {
+    width: 25px; 
+    height: 25px;
+    position: relative;
+    top: -35px; 
+    right: -25px;
+    display: block;
+    float: right;
+}
+
+.ccm_title {
+    font-family: "Metropolis-Bold", "Noto Sans KR";
+    font-size: 28px; 
+    line-height: 1; 
+    font-weight: 700;
+    text-align: left;
+    color: rgb(34, 34, 34);
+    padding-bottom: 40px;
+}
+.ccm_page h3 {
+    font-family: "Metropolis-Light", "Noto Sans KR";
+    font-size: 18px; 
+    line-height: 26px;
+    font-weight: 300; 
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: rgb(85, 85, 85);
+}
+.ccm_subtitle {
+    font-family: "Metropolis-Bold", "Noto Sans KR";
+    font-size: 22px; 
+    line-height: 1; 
+    font-weight: 700;
+    text-align: left;
+    color: rgb(34, 34, 34);
+    margin: 60px 0 30px;
+}
+.ccm_page_wrap p {
+    font-size: 16px; 
+    text-align: left;
+}
+
+/* CCM 소개 */
+.ccm_lps {
+    background: rgb(245, 245, 245);
+    border: 1px solid rgb(229, 229, 229);
+    padding: 70px 30px;
+    margin: 25px 0 0;
+}
+.lps_img_d {
+    max-width: 90%;
+}
+.lps_img_m {
+    display: none;
+}
+.ccm_lps h2 {
+    font-family: "Metropolis-Regular", "Noto Sans KR";
+    font-size: 20px; 
+    line-height: 1; 
+    font-weight: 400;
+    text-align: center;
+    color: rgb(34, 34, 34);
+    margin: 0 0 50px;
+}
+
+.ccm_org {
+    display: flex; 
+    justify-content: space-between;
+    border: 1px solid rgb(229, 229, 229);
+    padding: 54px 30px 60px;
+    margin: 10px 0 0;
+}
+.org_list_txt {
+    font-family: "Metropolis-Bold", "Noto Sans KR";
+    font-size: 20px; 
+    line-height: 1; 
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+    text-align: center;
+}
+.org {
+    width: 50%;
+    padding: 0 10px;
+}
+.org:first-child {
+    border-right: 1px solid rgb(229, 229, 229);
+}
+.list_txt {
+    font-family: "Metropolis-Bold", "Noto Sans KR";
+    font-size: 20px; 
+    line-height: 1; 
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+    text-align: center;
+}
+.org img {
+    margin: 28px 0 0;
+}
+
+/* CCM 기대효과 */
+.ccm_effect { 
+    display: flex; 
+    justify-content: space-between;
+    background: rgb(251, 254, 236);
+    border: 1px solid rgb(229, 229, 229);
+}
+.ccm_effect_list {
+    padding: 60px 25px;
+}
+.ccm_effect_list p {
+    line-height: 28px;
+    text-align: center;
+    margin-top: 24px;
+}
+.ccm_effect_list:nth-child(2) {
+    border-left: 1px solid rgb(229, 229, 229);
+    border-right: 1px solid rgb(229, 229, 229);
+}
+
+/* CCM 도입 운영성과 */
+.ccm_outcome {
+    border: 1px solid rgb(229, 229, 229);
+    padding: 0 50px;
+}
+.ccm_outcome_list {
+    display: flex;
+    padding: 55px 0;
+}
+.ccm_outcome_list:nth-child(2) {
+    border-top: 1px solid rgb(229, 229, 229);
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+.ccm_outcome_list h2 {
+    width: 250px;
+    font-family: "Metropolis-Bold", "Noto Sans KR";
+    font-size: 20px; 
+    line-height: 28px; 
+    font-weight: 700;
+    color: rgb(157, 185, 0);
+    text-align: left;
+    padding-right: 70px;
+}
+.ccm_outcome_list p {
+    width: -webkit-calc(100% - 250px);
+    line-height: 28px;
+}
+ 
+  
+ /* 반응형 CSS */
+ 
+ /* 반응형 1220px */
+ @media screen and (max-width:1220px) {
+    /* Footer 우측 Link */
+    .footer_link { 
+        position: absolute; bottom: 60px; right: 50px;
+    }   
+ }
+ 
+ 
+ /* 반응형 981px */
+ @media screen and (max-width: 981px) {
+    footer, #footer { 
+        padding: 40px 5% 50px;  
+        height: auto;
+        background: rgb(255, 255, 255);
+    }
+    footer:after {
+        display: block;
+        content: '';
+        clear: both;
+    }
+    
+    /* Footer 좌측 정보 */
+    .footer_left {
+        padding-left: 0;
+    }
+    .footer_info { 
+        padding-bottom: 20px; 
+    }
+    .footer_info>a {
+        margin: 2px 20px 3px 0;
+        font-size: 14px;
+    }
+    .copyright { 
+        font-size: 12px; 
+        letter-spacing: -0.5px; 
+    }
+ 
+    /* Footer 우측 Link */
+    .footer_link { 
+        position: relative;
+        bottom: auto;
+        right: auto;
+    }
+    .footer_ccm { 
+        height: 40px; 
+        padding-right: 0px; 
+    }
+    .familysite { 
+        height: auto;
+    }
+    .familysite>a {
+        padding: 13px 16px 12px;
+        font-size: 13px;
+    }
+    .familysite a span { 
+        font-size: 13px; 
+    }
+ 
+    /* family site Pop-Up */
+    .familysite_riseup {
+        width: auto;
+    }
+    .familysite_popup_wrap{
+        width: 352px;
+        padding: 25px 30px;
+        border-radius: 20px;
+    }
+    .familysite_popup:first-child { 
+        margin-bottom: 15px; 
+        padding-bottom: 15px; 
+    }
+    .familysite_popup_wrap p {
+        font-size: 13px; 
+        line-height: 1; 
+        font-weight: 700;
+    }
+    .familysite_category {
+        width: 33.33%;
+        float: left;
+    }
+    .familysite_list p {
+        width: 50%;
+    }
+    .familysite_list p:nth-child(n+4) { 
+        margin-top: 0px; 
+    }
+    .familysite_list p:nth-child(n+3) { 
+        margin-top: 12px; 
+    }
+    .close_btn {
+        bottom: 14px; right: 18px;
+    }
+
+    /* CCM POP-UP CSS */
+    .ccm_page_wrap {
+        line-height: 1;
+        width: 90%;
+        padding: 30px 20px 60px;
+    }
+    .ccm_close_btn img {
+        width: 15px; 
+        height: 15px;
+        position: relative;
+        top: -10px; 
+        right: 0px;
+        display: block;
+        float: right;
+    }
+    .ccm_title {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .ccm_page h3 {
+        font-size: 14px; 
+        line-height: 22px;
+    }
+    .ccm_subtitle {
+        font-size: 16px;
+        margin: 30px 0 15px;
+    }
+    .ccm_page_wrap p {
+        font-size: 13px; 
+        line-height: 18px;
+    }
+
+    /* CCM 소개 */
+    .ccm_lps {
+        padding: 35px 15px;
+        margin: 15px 0 0;
+    }
+    .lps_img_d {
+        display: none;
+    }
+    .lps_img_m {
+        display: inline;
+        width: 164px;
+    }
+    .ccm_lps h2 {
+        font-size: 14px;
+        margin: 0 0 25px;
+    }
+
+    .ccm_org {
+        padding: 26px 15px 30px;
+    }
+    .org_list_txt {
+        font-size: 15px;
+    }
+    .list_txt {
+        font-size: 15px;
+    }
+    .org img {
+        margin: 15px 0 0;
+    }
+
+    /* CCM 기대효과 */
+    .ccm_effect_list {
+        padding: 30px 12px;
+    }
+    .ccm_effect_list p {
+        line-height: 20px;
+        margin-top: 12px;
+    }
+
+    /* CCM 도입 운영성과 */
+    .ccm_outcome {
+        padding: 0 20px;
+    }
+    .ccm_outcome_list {
+        padding: 24px 0;
+    }
+    .ccm_outcome_list h2 {
+        width: 150px;
+        font-size: 15px; 
+        line-height: 22px;
+        padding-right: 20px;
+    }
+    .ccm_outcome_list p {
+        width: -webkit-calc(100% - 150px);
+        line-height: 22px;
+    }
+ }
+ 
+ /* 반응형 768px(GS는 BP가 758px) */
+ @media screen and (max-width: 758px) {
+    .footer_wrap {
+        flex-direction: column; align-items: flex-start;
+        position: relative;
+    }
+ 
+    /* Footer 좌측 정보 */
+    .footer_info {
+        padding-bottom: 20px;
+    }
+    .copyright {
+        padding-bottom: 30px;
+    }
+ 
+    /* Footer 우측 Link */
+    .footer_link {
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column; 
+        position: relative; bottom: 0; left: 0;
+    }
+    .footer_ccm { 
+        width: 32px; height: 21px;
+        background: url(../images/m_iconFooter_ccm.png) no-repeat right center; 
+        background-size: 32px 21px;
+        position: absolute;
+        top: -45px; left: auto; right: 0;
+    }
+    .footer_link a {
+        margin: 0;
+    }
+    .familysite {
+        width: 100%;
+    }
+    .familysite>a>span {
+        display: block;
+    }
+ 
+    /* family site Pop-Up */
+    .familysite_riseup {
+        width: 100%; 
+        height: 0px;
+        bottom: 0px; 
+        right: 0px;
+    }
+    .familysite_popup_wrap {
+        width: 100%; 
+        height: 283px;
+    }
+    .familysite_popup {
+        display: block;
+    }
+    .familysite_popup:first-child { 
+        height: 171px;
+    }
+    .familysite_category {
+        width: 100%;
+        padding-bottom: 15px;
+        display: block;
+    }
+    .familysite_list {
+        width: 100%;
+    }
+    .close_btn {
+        bottom: 14px; right: 18px;
+    }
+
+    /* CCM POP-UP CSS */
+    .ccm_page_wrap {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        max-height: 100%;
+        padding: 30px 10px 60px;
+        position: fixed; 
+        top: 0%; left: 0%;
+        transform: translate(0%, 0%);
+    }
+    .ccm_close_btn img {
+        width: 15px; 
+        height: 15px;
+        top: -10px; 
+        right: 2%;
+    }
+
+    /* CCM 소개 */
+    .org img {
+        max-width: 90%;
+    }
+
+    /* CCM 기대효과 */
+    .ccm_effect {
+        flex-direction: column;
+        text-align: left;
+        padding: 0 15px;
+    }
+    .ccm_effect_list {
+        padding: 24px 0;
+    }
+    .ccm_effect_list p {
+        text-align: left;
+    }
+    .ccm_effect_list:nth-child(2) {
+        border-top: 1px solid rgb(229, 229, 229);
+        border-bottom: 1px solid rgb(229, 229, 229);
+        border-left: 0px solid rgb(229, 229, 229);
+        border-right: 0px solid rgb(229, 229, 229);
+    }
+    .list_txt {
+        text-align: left;
+    }
+}
+
+ /* 반응형 500px */
+@media screen and (max-width: 500px) {
+    /* CCM POP-UP CSS */
+    /* CCM 도입 운영성과 */
+    .ccm_outcome {
+        padding: 0 15px;
+    }
+    .ccm_outcome_list {
+        flex-direction: column;
+    }
+    .ccm_outcome_list h2 {
+        width: 100%;
+    }
+    .ccm_outcome_list p {
+        width: 100%;
+    }
+}

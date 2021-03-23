@@ -1,0 +1,435 @@
+main { 
+    width: 100%; height: auto;
+    text-align: left;  
+}
+
+/* Main Hero CSS */
+.subpg_hero { 
+    width: 100%; height: 1100px;
+    position: relative; 
+    padding: 385px 0 0;  
+    text-align: center; color: rgb(255, 255, 255); 
+    background: url(../img/subVisual_csr.jpg) no-repeat center 0px; 
+    background-size: cover;
+}
+
+.subpg_hero_title {
+    position: relative; 
+    opacity: 0;
+    animation: rise_up .7s forwards;
+}
+.subpg_hero_txt { 
+    line-height: 1; color: rgb(255, 255, 255); 
+    margin: 35px 0 0 0;
+    position: relative; 
+    opacity: 0;
+    animation: rise_up .7s .2s forwards;
+}
+
+/* SubPage Menu CSS */
+
+.subpg_menu_wrap { 
+    width: calc(100% - 180px); height: 200px;
+    margin: 0 auto; 
+    background-color: rgb(255, 255, 255); 
+    color: rgb(85, 85, 85);
+    position: absolute; left: 90px; bottom: 0;
+    padding: 60px 0 0 0;
+    display: flex; justify-content: space-between;
+    opacity: 0;
+    animation: rise_up_bottom .6s .9s forwards;
+}
+
+    /* SubPage Menu left CSS */
+    .subpg_menu {
+        width: auto; height: 16px;
+        display: flex; justify-content: space-between;
+        position: absolute; left: 60px; top: 60px;
+        overflow: hidden;
+    }
+    .subpg_menu p {
+        font-size: 16px; line-height: 1; letter-spacing: -0.6px;
+        color: rgb(85, 85, 85);  
+        padding-right: 21px; margin-right: 16px; 
+        background: url(../img/indicatorD_location_arrow.png) no-repeat right 2px; 
+    }
+    .subpg_csr {
+        height: 100%; 
+        padding: 0;
+        position: relative; left: -35px;
+    }
+    .subpg_csr a { 
+        font-weight: 700; letter-spacing: -0.6px; 
+        color: rgb(34, 34, 34);  
+    }
+    .subpg_csr_img { 
+        vertical-align: middle; padding: 0 10px;
+    }
+    .subpg_csr_list { 
+        text-align: center;
+        width: 160px; height: 190px;
+        padding: 18px 10px;
+        position: relative; top: 14px; left: calc(50% - 85px);
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(229, 229, 229);
+        z-index: 1;
+     }
+    .subpg_csr_list a { 
+        font-size: 16px; line-height: 31px; font-weight: 400; letter-spacing: -0.6px;
+        color: rgb(85, 85, 85);  
+    }
+    .subpg_csr_list a:hover {
+        color:#b1c712; 
+    }
+
+    /* SubPage Menu Right CSS */
+    .subpg_shr {
+        width: 172px; height: 22px;
+        padding-right: 60px;
+        position: absolute; right: 0px; top: 60px;
+        text-align: right;
+        overflow: hidden;
+    }
+    .shr_btn {
+        font-family: "Metropolis-SemiBold"; 
+        font-size: 13px; line-height: 22px; font-weight: 400; letter-spacing: normal; 
+        color: rgb(34, 34, 34);
+        height: 22px;
+        padding: 0 0 0 28px; margin-right: 60px;
+        background: url(../img/indicatorD_utillD_share.png) no-repeat left 0px;
+        position: absolute; right: 0px;
+    }
+    .shr_btn:hover { 
+        color:#b1c712; 
+    }
+    .shr_sns {
+        width: 112px; height: 302px;
+        display: block;
+        background-color: rgb(255, 255, 255); 
+        padding: 20px 35px 40px;
+        border: 1px solid rgb(229, 229, 229) ;
+        position: relative; top: 35px; right: -30px;
+        z-index: 1; float: initial;
+    }
+    .shr_sns img {
+        display: block; 
+        margin-top: 10px; 
+    }
+    
+
+/* 어린이 대상 CSR활동 CSS */
+.csr_activity_wrap { 
+    width: 100%; height: 100%; 
+    padding-bottom: 150px;
+    position: relative; top: 0px; bottom: auto;
+}
+.csr_activity { 
+    width: 100%; 
+    display: flex; justify-content: center; 
+    margin-top: 80px; flex-wrap: wrap; 
+}
+.child_list { 
+    max-width: 25%;
+}
+.child_list_txt {
+    padding: 50px 50px 0;
+}
+.csr_activity img {
+     width: 100%;
+    }
+.csr_activity p { 
+    margin: 25px auto 0; 
+}
+
+
+/* 사회적 기업 대상 CSR 활동 CSS */
+.csr_for_social { 
+    width: 100%;
+    background-color: rgb(245, 245, 245); 
+    margin: 80px 0 40px;
+}
+.social_list {  
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 100px;
+    position: relative;
+}
+.social_list:nth-child(2n) {
+    text-align: right;
+}
+.social_list img {
+    width: -webkit-calc(50% + 232px);
+}
+.social_text_1, .social_text_3 { 
+    width: 600px; max-width: 600px; height: 480px; 
+    padding: 80px; 
+    background-color: rgb(255, 255, 255); 
+    position: absolute; left: 50%; bottom: 0;
+}
+.social_text_2 { 
+    width: 600px; max-width: 600px; height: 480px; 
+    padding: 80px; 
+    background-color: rgb(255, 255, 255); 
+    position: absolute; left: calc(50% - 600px); bottom: 0;
+    text-align: left;
+}
+.social_text p { 
+    margin-top: 20px; 
+}
+
+
+/* 지역사회 대상 CSR활동 CSS */
+.community_list { 
+    width: 33.3333%; 
+}
+.community_list_txt {
+    padding: 50px 50px 0;
+}
+
+
+
+/* Scroll Animation CSS */
+.sa {
+    opacity: 0;
+    transition: all .5s ease;
+}
+/* 아래에서 위로 페이드 인 */
+.sa_up {
+    transform: translate(0, 100px);
+}
+.sa.show {
+    opacity: 1;
+    transform: none;
+}
+
+
+
+/* GS SHOP 사회공헌페이지 반응형웹 CSS */
+
+/* 반응형 1500px */
+@media screen and (max-width:1500px) {
+    .child_list_txt {
+        padding: 40px 0 0 10px;
+    }
+}
+
+
+/* 반응형 1280px */
+@media screen and (max-width:1280px) {
+    .subpg_hero {
+        height: 700px;
+        padding: 210px 0 0 0;
+    }
+
+    /* subpage Menu */
+    .subpg_menu_wrap {
+        width: 100%; height: 150px;
+        bottom: 0px; left: 0px;
+    }
+
+    /* 어린이 대상 CSR활동 */
+    .csr_activity_wrap { 
+        top: 0px;
+    }
+    .csr_activity_wrap h4 {
+        font-size: 46px; line-height: 1.2;
+    }
+    .child_list { 
+        max-width: 50%;
+    }
+    .child_list_txt {
+        padding: 40px 20px 0;
+    }
+    .child_list:nth-child(n+3) {
+        margin-top: 60px;
+    }
+
+    /* 사회적 기업 대상 CSR 활동 */
+    .social_text_1, .social_text_3 { 
+        width: 560px; height: 420px; 
+        padding: 60px; 
+        position: absolute; left: auto; right: 0; bottom: 0;
+    }
+    .social_text_2 { 
+        width: 560px; height: 420px; 
+        padding: 60px; 
+        position: absolute; left: 0; bottom: 0;
+    }
+}
+
+
+/* 반응형 981px */
+@media screen and (max-width:981px) {
+    /* Main Hero */
+    .subpg_hero {
+        height: 560px;
+        padding: 230px 50px 0;
+        background-position: center center;
+    }
+    .subpg_hero h3 {
+        font-size: 35px; line-height: 1;
+    }
+    .subpg_hero_txt { 
+        font-size: 14px; line-height: 22px; 
+        margin: 15px 0 0 0;
+    }
+
+    /* subpage Menu */
+    .subpg_menu_wrap {
+        width: 100%; height: 80px;
+        padding: 15px 0 0;
+        position: absolute; bottom: -80px;
+    }
+    .subpg_menu {
+        display: none;
+    }
+    .subpg_shr {
+        width: 100%; height: 18px; overflow: none;
+        padding: 0; margin: 0;
+        top: 15px;
+    }
+    .shr_btn {
+        font-size: 10px; line-height: 16px;
+        display: block;
+        padding: 0 0 0 24px; margin: 0 50px 0 0;
+        background: url(../img/m_indicatorD_utillD_share.png) no-repeat left 0px;
+        background-size: 14px;
+        right: 0px;
+    }
+    .shr_sns {
+        width: 72px; height: 220px;
+        padding: 13px 20px 27px;
+        position: absolute; top: 30px; right: 40px;
+    }
+    .shr_sns img {
+        width: 30px; height: 30px;
+        margin-top: 7px;
+    }
+
+    /* 어린이 대상 CSR활동 */
+    .csr_activity_wrap {
+        position: relative; top: 80px;
+        padding-bottom: 80px;
+    }
+    .csr_activity_wrap h4 {
+        font-size: 30px;
+    }
+    .csr_activity { 
+        margin-top: 40px;
+    }
+    .child_list_txt {
+        padding: 20px 15px 0;
+    }
+    .csr_activity h5 {
+        font-size: 15px;
+    }
+    .csr_activity p { 
+        font-size: 14px; line-height: 22px;
+        margin: 15px auto 0; 
+    }
+    .child_list:nth-child(n+3) {
+        margin-top: 40px;
+    }
+
+    /* 사회적 기업 대상 CSR 활동 */
+    .csr_for_social { 
+        margin: 40px 0 0;
+    }
+    .social_text_1, .social_text_3 { 
+        width: 400px; height: auto; 
+        padding: 40px; 
+        position: absolute; left: auto; right: 0; bottom: -60px;
+    }
+    .social_text_2 { 
+        width: 400px; height: auto; 
+        padding: 40px;
+        position: absolute; left: 0; bottom: -60px;
+    }
+    .social_list h6 {
+        font-size: 34px; line-height: 40px;
+    }
+    .social_list p { 
+        font-size: 14px; line-height: 22px;
+        margin-top: 10px;
+    }
+    .social_list {
+        margin-bottom: 130px;
+    }
+    .social_list:last-child {
+        margin-bottom: 90px;
+    }
+
+    /* 지역사회 대상 CSR활동 */
+    .community_list_txt {
+        padding: 20px 15px 0;
+    }
+    .community_list:last-child h5 {
+        letter-spacing: -1.1px;
+    }
+    .mb70 {
+        margin-bottom: 70px;
+    }
+}
+
+
+/* 반응형 500px */
+@media screen and (max-width: 500px) {
+    /* subpage Menu */
+    .subpg_menu_wrap {
+        padding: 17px 25px 0; 
+    }
+    .shr_btn {
+        right: 25px;
+    }
+    .shr_sns {
+        top: 40px; right: 18px;
+    }
+
+    /* 어린이 대상 CSR활동 */
+    .csr_activity_wrap h4 {
+        font-size: 25px;
+        padding: 0 22.5px;
+    }
+    .child_list { 
+        max-width: 100%;
+        margin-top: 50px;
+    }
+    .child_list:nth-child(1) { 
+        margin-top: 0px;
+    }
+    .child_list_txt {
+        padding: 30px 15px 0;
+    }
+
+    /* 사회적 기업 대상 CSR 활동 */
+    .social_list {  
+        margin: 0 0 60px;
+        display: block;
+    }
+    .social_list:last-child {  
+        margin: 0; padding: 0 0 60px;
+    }
+    .social_list img {
+        width: 100%; max-width: 482px;
+    }
+    .social_text_1, .social_text_2, .social_text_3 { 
+        width: 100%; height: auto; 
+        padding: 30px; 
+        position: relative; left: 0; right: 0; top: 0; bottom: auto;
+    }
+
+    /* 지역사회 대상 CSR활동 */
+    .community_list { 
+        width: 100%; 
+    }
+    .community_list:nth-child(2) {
+        margin: 50px 0;
+    }
+    .community_list:last-child h5 {
+        letter-spacing: -0.6px;
+    }
+}
+
+
+
+
