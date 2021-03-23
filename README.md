@@ -1,5 +1,5 @@
 # GS SHOP Company Project
-웹 반응형 팀프로젝트
+반응형 웹 팀프로젝트
 
 # main
 https://nuyhos.github.io/GSshop/
